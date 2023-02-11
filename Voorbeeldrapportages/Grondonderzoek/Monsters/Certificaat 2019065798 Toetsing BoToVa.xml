@@ -1,0 +1,930 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40"
+ xmlns:u1="urn:schemas-microsoft-com:office:Excel2">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Jaap van der Bom</Author>
+  <LastAuthor>Jaap van der Bom</LastAuthor>
+  <Created>2019-05-21T08:26:21Z</Created>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9360</WindowHeight>
+  <WindowWidth>9705</WindowWidth>
+  <WindowTopX>270</WindowTopX>
+  <WindowTopY>630</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m162122876">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D8D8D8"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D8D8D8"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#F2F2F2" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D8D8D8"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D8D8D8"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#F2F2F2" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D8D8D8"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D8D8D8"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#F2F2F2" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D8D8D8"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D8D8D8"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#F2F2F2" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="8" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s75">
+   <NumberFormat ss:Format="\&lt;#########0.0"/>
+  </Style>
+  <Style ss:ID="s76">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s77">
+   <NumberFormat ss:Format="\&lt;#########0.000"/>
+  </Style>
+  <Style ss:ID="s78">
+   <NumberFormat ss:Format="\&lt;#########0.0000"/>
+  </Style>
+  <Style ss:ID="s79">
+   <NumberFormat ss:Format="\&lt;#########0.00"/>
+  </Style>
+  <Style ss:ID="s80">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s83">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="8" ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="10706032">
+  <Table ss:ExpandedColumnCount="11" ss:ExpandedRowCount="116" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:AutoFitWidth="0" ss:Width="20.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="60"/>
+   <Column ss:AutoFitWidth="0" ss:Width="135"/>
+   <Column ss:AutoFitWidth="0" ss:Width="75" ss:Span="1"/>
+   <Column ss:Index="6" ss:Width="36.75"/>
+   <Column ss:Width="67.5"/>
+   <Column ss:Width="36.75" ss:Span="2"/>
+   <Column ss:Index="11" ss:Width="33"/>
+   <Row>
+    <Cell ss:MergeAcross="7" ss:StyleID="s63"><Data ss:Type="String">BoToVa T3 Beoordeling kwaliteit van baggerspecie en ontvangende bodem of oever bij toepassen in een oppervlaktewaterlichaam</Data></Cell>
+   </Row>
+   <Row ss:Index="3">
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Projectnummer</Data></Cell>
+    <Cell><Data ss:Type="String">D19004</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Projectnaam</Data></Cell>
+    <Cell><Data ss:Type="String">Gouderaksedijk Gouda</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Ordernummer</Data></Cell>
+    <Cell><Data ss:Type="String">D19004</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Datum monstername</Data></Cell>
+    <Cell><Data ss:Type="String">06-05-2019</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Monsternemer</Data></Cell>
+    <Cell><Data ss:Type="String">Jaap van der Bom</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Certificaatnummer</Data></Cell>
+    <Cell><Data ss:Type="String">2019065798</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Startdatum</Data></Cell>
+    <Cell><Data ss:Type="String">06-05-2019</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Rapportagedatum</Data></Cell>
+    <Cell><Data ss:Type="String">10-05-2019</Data></Cell>
+   </Row>
+   <Row ss:Index="12">
+    <Cell ss:MergeAcross="2" ss:StyleID="m162122876"><Data ss:Type="String">Analyse</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Eenheid</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">GSSD</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Oordeel</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">RG Eis</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">AW</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Kwal.A</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Kwal.B</Data></Cell>
+   </Row>
+   <Row ss:Index="14">
+    <Cell ss:MergeAcross="2" ss:StyleID="s63"><Data ss:Type="String">Bodemtype correctie</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Organische stof</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">7.6</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Korrelgrootte &lt; 2 µm</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">2.1</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="s63"><Data ss:Type="String">Bodemkundige analyses</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Droge stof</Data></Cell>
+    <Cell><Data ss:Type="String">% (m/m)</Data></Cell>
+    <Cell><Data ss:Type="Number">76.5</Data></Cell>
+    <Cell><Data ss:Type="Number">76.5</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Organische stof</Data></Cell>
+    <Cell><Data ss:Type="String">% (m/m) ds</Data></Cell>
+    <Cell><Data ss:Type="Number">7.6</Data></Cell>
+    <Cell><Data ss:Type="Number">7.6</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Gloeirest</Data></Cell>
+    <Cell><Data ss:Type="String">% (m/m) ds</Data></Cell>
+    <Cell><Data ss:Type="Number">92.3</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Korrelgrootte &lt; 2 µm</Data></Cell>
+    <Cell><Data ss:Type="String">% (m/m) ds</Data></Cell>
+    <Cell><Data ss:Type="Number">2.1</Data></Cell>
+    <Cell><Data ss:Type="Number">2.1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="s63"><Data ss:Type="String">Metalen</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Arseen (As)</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="Number">18.43</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">&lt;=AW</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">29</Data></Cell>
+    <Cell><Data ss:Type="Number">85</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Cadmium (Cd)</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">1.2</Data></Cell>
+    <Cell><Data ss:Type="Number">1.64</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">A</Data></Cell>
+    <Cell><Data ss:Type="Number">0.2</Data></Cell>
+    <Cell><Data ss:Type="Number">0.6</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Chroom (Cr)</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">96</Data></Cell>
+    <Cell><Data ss:Type="Number">177.1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">B</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">55</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="Number">380</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Koper (Cu)</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">55</Data></Cell>
+    <Cell><Data ss:Type="Number">95.1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">A</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">96</Data></Cell>
+    <Cell><Data ss:Type="Number">190</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Kwik (Hg)</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">0.19</Data></Cell>
+    <Cell><Data ss:Type="Number">0.26069999999999999</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">A</Data></Cell>
+    <Cell><Data ss:Type="Number">0.05</Data></Cell>
+    <Cell><Data ss:Type="Number">0.15</Data></Cell>
+    <Cell><Data ss:Type="Number">1.2</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Nikkel (Ni)</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">167.8</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">B</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">210</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Lood (Pb)</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">290</Data></Cell>
+    <Cell><Data ss:Type="Number">412.9</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">B</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">138</Data></Cell>
+    <Cell><Data ss:Type="Number">580</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Zink (Zn)</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">360</Data></Cell>
+    <Cell><Data ss:Type="Number">744.5</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">B</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">140</Data></Cell>
+    <Cell><Data ss:Type="Number">563</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="s63"><Data ss:Type="String">Minerale olie</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Minerale olie (C10-C12)</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2.7629999999999999</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Minerale olie (C12-C16)</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">26.32</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Minerale olie (C16-C21)</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">82</Data></Cell>
+    <Cell><Data ss:Type="Number">107.9</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Minerale olie (C21-C30)</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">230</Data></Cell>
+    <Cell><Data ss:Type="Number">302.60000000000002</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Minerale olie (C30-C35)</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">110</Data></Cell>
+    <Cell><Data ss:Type="Number">144.69999999999999</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Minerale olie (C35-C40)</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">38</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Minerale olie totaal (C10-C40)</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">470</Data></Cell>
+    <Cell><Data ss:Type="Number">618.4</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">A</Data></Cell>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="Number">190</Data></Cell>
+    <Cell><Data ss:Type="Number">1250</Data></Cell>
+    <Cell><Data ss:Type="Number">5000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Chromatogram olie (GC)</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Zie bijl.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="s63"><Data ss:Type="String">Organo chloorbestrijdingsmiddelen, OCB</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">alfa-HCH</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell><Data ss:Type="Number">9.1999999999999998E-3</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">B</Data></Cell>
+    <Cell><Data ss:Type="Number">1E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">1E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">1.1999999999999999E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">beta-HCH</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell><Data ss:Type="Number">9.1999999999999998E-3</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">B</Data></Cell>
+    <Cell><Data ss:Type="Number">1E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">2E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">6.4999999999999997E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">gamma-HCH</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell><Data ss:Type="Number">9.1999999999999998E-3</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">B</Data></Cell>
+    <Cell><Data ss:Type="Number">1E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">3.0000000000000001E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">3.0000000000000001E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">delta-HCH</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell><Data ss:Type="Number">9.1999999999999998E-3</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Hexachloorbenzeen</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell><Data ss:Type="Number">9.1999999999999998E-3</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">A</Data></Cell>
+    <Cell><Data ss:Type="Number">1E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">8.5000000000000006E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">4.3999999999999997E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Heptachloor</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell><Data ss:Type="Number">9.1999999999999998E-3</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">B</Data></Cell>
+    <Cell><Data ss:Type="Number">1E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">6.9999999999999999E-4</Data></Cell>
+    <Cell><Data ss:Type="Number">4.0000000000000001E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Heptachloorepoxide(cis- of A)</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell><Data ss:Type="Number">9.1999999999999998E-3</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Heptachloorepoxide(trans- of B)</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell><Data ss:Type="Number">9.1999999999999998E-3</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Hexachloorbutadieen</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell><Data ss:Type="Number">9.1999999999999998E-3</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">B</Data></Cell>
+    <Cell><Data ss:Type="Number">1E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">3.0000000000000001E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">7.4999999999999997E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Aldrin</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">9.9</Data></Cell>
+    <Cell><Data ss:Type="Number">13.03</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">B</Data></Cell>
+    <Cell><Data ss:Type="Number">1E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">8.0000000000000004E-4</Data></Cell>
+    <Cell><Data ss:Type="Number">1.2999999999999999E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Dieldrin</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">5.8</Data></Cell>
+    <Cell><Data ss:Type="Number">7.6319999999999997</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">B</Data></Cell>
+    <Cell><Data ss:Type="Number">1E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">8.0000000000000002E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">8.0000000000000002E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Endrin</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell><Data ss:Type="Number">0.13159999999999999</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">B</Data></Cell>
+    <Cell><Data ss:Type="Number">1E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">3.5000000000000001E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">3.5000000000000001E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Isodrin</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">0.23</Data></Cell>
+    <Cell><Data ss:Type="Number">0.30259999999999998</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">B</Data></Cell>
+    <Cell><Data ss:Type="Number">1E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">1E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Telodrin</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell><Data ss:Type="Number">9.1999999999999998E-3</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">B</Data></Cell>
+    <Cell><Data ss:Type="Number">1E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">5.0000000000000001E-4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">alfa-Endosulfan</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell><Data ss:Type="Number">9.1999999999999998E-3</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">B</Data></Cell>
+    <Cell><Data ss:Type="Number">1E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">8.9999999999999998E-4</Data></Cell>
+    <Cell><Data ss:Type="Number">2.0999999999999999E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">beta-Endosulfan</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell><Data ss:Type="Number">9.1999999999999998E-3</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Endosulfansulfaat</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">0.02</Data></Cell>
+    <Cell><Data ss:Type="Number">1.84E-2</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">alfa-Chloordaan</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell><Data ss:Type="Number">9.1999999999999998E-3</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">gamma-Chloordaan</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell><Data ss:Type="Number">9.1999999999999998E-3</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">o,p'-DDT</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell><Data ss:Type="Number">9.1999999999999998E-3</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">p,p'-DDT</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell><Data ss:Type="Number">9.1999999999999998E-3</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">o,p'-DDE</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell><Data ss:Type="Number">9.1999999999999998E-3</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">p,p'-DDE</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell><Data ss:Type="Number">1.3100000000000001E-2</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">o,p'-DDD</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell><Data ss:Type="Number">9.1999999999999998E-3</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">p,p'-DDD</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell><Data ss:Type="Number">9.1999999999999998E-3</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">HCH (som) (factor 0,7)</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">2.8000000000000001E-2</Data></Cell>
+    <Cell><Data ss:Type="Number">3.6799999999999999E-2</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">B</Data></Cell>
+    <Cell><Data ss:Type="Number">1E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Drins (som) (factor 0,7)</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">20.79</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Nooit toepasbaar</Data></Cell>
+    <Cell><Data ss:Type="Number">1E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">1.4999999999999999E-2</Data></Cell>
+    <Cell><Data ss:Type="Number">1.4999999999999999E-2</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Heptachloorepoxide (som) (factor 0,7)</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">1.4E-2</Data></Cell>
+    <Cell><Data ss:Type="Number">1.84E-2</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">B</Data></Cell>
+    <Cell><Data ss:Type="Number">1E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">2E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">4.0000000000000001E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">DDD (som) (factor 0,7)</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">1.4E-2</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">DDE (som) (factor 0,7)</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">1.7000000000000001E-2</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">DDT (som) (factor 0,7)</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">1.4E-2</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">DDX (som) (factor 0,7)</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">4.4999999999999998E-2</Data></Cell>
+    <Cell><Data ss:Type="Number">5.9200000000000003E-2</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">&lt;=AW</Data></Cell>
+    <Cell><Data ss:Type="Number">1E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Chloordaan (som) (factor 0,7)</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">1.4E-2</Data></Cell>
+    <Cell><Data ss:Type="Number">1.84E-2</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">B</Data></Cell>
+    <Cell><Data ss:Type="Number">1E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">2E-3</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">OCB (som) LB (factor 0,7)</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="Number">0.4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">OCB (som) WB (factor 0,7)</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">21.28</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Pentachloorbenzeen</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell><Data ss:Type="Number">9.1999999999999998E-3</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">B</Data></Cell>
+    <Cell><Data ss:Type="Number">1E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">2.5000000000000001E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0000000000000001E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="s63"><Data ss:Type="String">Polychloorbifenylen, PCB</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">PCB 28</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell><Data ss:Type="Number">9.1999999999999998E-3</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">A</Data></Cell>
+    <Cell><Data ss:Type="Number">1E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">1.5E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">1.4E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">PCB 52</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell><Data ss:Type="Number">9.1999999999999998E-3</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">A</Data></Cell>
+    <Cell><Data ss:Type="Number">1E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">2E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">1.4999999999999999E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">PCB 101</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell><Data ss:Type="Number">9.1999999999999998E-3</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">A</Data></Cell>
+    <Cell><Data ss:Type="Number">1E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">1.5E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">2.3E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">PCB 118</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">1.2E-2</Data></Cell>
+    <Cell><Data ss:Type="Number">1.5699999999999999E-2</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">A</Data></Cell>
+    <Cell><Data ss:Type="Number">1E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">4.4999999999999997E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">1.6E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">PCB 138</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">1.6E-2</Data></Cell>
+    <Cell><Data ss:Type="Number">2.1000000000000001E-2</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">A</Data></Cell>
+    <Cell><Data ss:Type="Number">1E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">4.0000000000000001E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">2.7E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">PCB 153</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">1.4E-2</Data></Cell>
+    <Cell><Data ss:Type="Number">1.84E-2</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">A</Data></Cell>
+    <Cell><Data ss:Type="Number">1E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">3.5000000000000001E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">3.3000000000000002E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">PCB 180</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell><Data ss:Type="Number">9.1999999999999998E-3</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">A</Data></Cell>
+    <Cell><Data ss:Type="Number">1E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">2.5000000000000001E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">1.7999999999999999E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">PCB (som 7) (factor 0,7)</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0000000000000007E-2</Data></Cell>
+    <Cell><Data ss:Type="Number">9.2100000000000001E-2</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">A</Data></Cell>
+    <Cell><Data ss:Type="Number">4.8999999999999998E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">0.02</Data></Cell>
+    <Cell><Data ss:Type="Number">0.13900000000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="s63"><Data ss:Type="String">Fenolen</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Pentachloorfenol</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">3.0000000000000001E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">2.7000000000000001E-3</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">&lt;=AW</Data></Cell>
+    <Cell><Data ss:Type="Number">3.0000000000000001E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">3.0000000000000001E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">1.6E-2</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="s63"><Data ss:Type="String">Polycyclische Aromatische Koolwaterstoffen, PAK</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Naftaleen</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell><Data ss:Type="Number">0.35</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Fenanthreen</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Anthraceen</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell><Data ss:Type="Number">0.35</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Fluorantheen</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">4.8</Data></Cell>
+    <Cell><Data ss:Type="Number">4.8</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Benzo(a)anthraceen</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">2.2000000000000002</Data></Cell>
+    <Cell><Data ss:Type="Number">2.2000000000000002</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Chryseen</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">2.5</Data></Cell>
+    <Cell><Data ss:Type="Number">2.5</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Benzo(k)fluorantheen</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">1.1000000000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">1.1000000000000001</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Benzo(a)pyreen</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">2.4</Data></Cell>
+    <Cell><Data ss:Type="Number">2.4</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Benzo(ghi)peryleen</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">2.1</Data></Cell>
+    <Cell><Data ss:Type="Number">2.1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Indeno(123-cd)pyreen</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">2.5</Data></Cell>
+    <Cell><Data ss:Type="Number">2.5</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">PAK VROM (10) (factor 0,7)</Data></Cell>
+    <Cell><Data ss:Type="String">mg/kg ds</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">20.3</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">B</Data></Cell>
+    <Cell><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell><Data ss:Type="Number">1.5</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+   </Row>
+   <Row ss:Index="101">
+    <Cell ss:MergeAcross="2" ss:StyleID="s80"><Data ss:Type="String">Legenda</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Index="103">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Nr.</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Analytico-nr</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Monster</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10706032</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s83"><Data ss:Type="String">Gouderaksedijk Vak D</Data></Cell>
+   </Row>
+   <Row ss:Index="106">
+    <Cell ss:MergeAcross="1" ss:StyleID="s83"><Data ss:Type="String">Eindoordeel: </Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Nooit toepasbaar</Data></Cell>
+   </Row>
+   <Row ss:Index="108">
+    <Cell ss:MergeAcross="3" ss:StyleID="s83"><Data ss:Type="String">Gebruikte afkortingen</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="1" ss:StyleID="s83"><Data ss:Type="String">GSSD</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Gestandaardiseerd gehalte</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="1" ss:StyleID="s83"><Data ss:Type="String">AW</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Achtergrondwaarde</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="1" ss:StyleID="s83"><Data ss:Type="String">&lt;= AW</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">kleiner dan of gelijk aan Achtergrondwaarde</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="1" ss:StyleID="s83"><Data ss:Type="String">RG Eis</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Vereiste rapportagegrens</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="1" ss:StyleID="s83"><Data ss:Type="String">IW</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Interventiewaarde</Data></Cell>
+   </Row>
+   <Row ss:Index="115">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Deze toetsing is uitgevoerd met behulp van BoToVa.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Zie voor info: http://www.rwsleefomgeving.nl/onderwerpen/bodem-ondergrond/bbk/instrumenten/botova/</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>R1C1:R1C8</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
